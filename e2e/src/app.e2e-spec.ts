@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to vatpac-pilot-assist!');
+    expect(page.getTitleText()).toEqual('vatpac-pilot-assist app is running!');
   });
 
   afterEach(async () => {
